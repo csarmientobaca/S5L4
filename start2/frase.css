@@ -8,3 +8,17 @@
 7 ritardare progressivamente l'animazione delle altre 2 parole 
 */
 
+span {
+    color: cadetblue;
+    animation: deleteText 3s linear infinite;
+}
+
+@keyframes deleteText {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}

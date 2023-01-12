@@ -1,0 +1,68 @@
+body,
+.card-container {
+    height: 100%;
+    background-color: darkgrey
+}
+
+
+
+.card-container {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.card {
+    display: flex;
+    width: 23%;
+    height: 30%;
+    flex-direction: column;
+    align-items: center;
+    margin: 1%;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+
+}
+
+.one {
+    transform: rotate(-10deg)
+}
+
+.two {
+    transform: rotate(5deg)
+}
+
+.three {
+    transform: rotate(-5deg)
+}
+
+.four {
+    transform: rotate(-5deg)
+}
+
+.five {
+    transform: rotate(-5deg)
+}
+
+.six {
+    transform: rotate(-5deg)
+}
+
+.seven {
+    transform: rotate(-3deg)
+}
+
+.eight {
+    transform: rotate(-5deg)
+}
+
+card:hover {
+    transform: scale(1.5);
+    z-index: 99;
+}
