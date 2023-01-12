@@ -13,6 +13,10 @@ span {
     animation: deleteText 3s linear infinite;
 }
 
+span i {
+    position: absolute;
+}
+
 @keyframes deleteText {
     0% {
         opacity: 1;
@@ -21,4 +25,12 @@ span {
     100% {
         opacity: 0;
     }
+}
+
+i:first-child {
+    opacity: 0;
+}
+
+i:nth-child(2) {
+    opacity: 0;
 }
