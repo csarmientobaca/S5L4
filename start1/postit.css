@@ -62,7 +62,7 @@ body,
     transform: rotate(-5deg)
 }
 
-card:hover {
-    transform: scale(1.5);
+.card:hover {
+    transform: scale(1.2);
     z-index: 99;
 }
